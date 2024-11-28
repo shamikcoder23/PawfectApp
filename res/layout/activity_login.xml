@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="25sp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/splash"
+            android:layout_marginVertical="15sp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/my_bold_file"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:layout_marginHorizontal="15sp"/>
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="emailAddress"
+            android:hint="@string/email"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_marginVertical="15sp"
+            android:minHeight="50dp"
+            android:layout_marginHorizontal="15sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/my_bold_file"
+            android:textSize="20sp"
+            android:text="@string/password"
+            android:layout_marginHorizontal="15sp"/>
+
+        <EditText
+            android:id="@+id/editPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="password"
+            android:hint="@string/password"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:layout_marginVertical="15sp"
+            android:minHeight="50dp"
+            android:minWidth="100dp"
+            android:layout_marginHorizontal="15sp"/>
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            style="?android:attr/actionButtonStyle"
+            android:background="@drawable/login_button"
+            android:textStyle="normal"
+            android:text="@string/log_continue"
+            android:fontFamily="@font/my_medium_file"
+            android:textSize="18sp"
+            android:layout_marginVertical="15sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

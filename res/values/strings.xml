@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="logo">My Logo</string>
+    <string name="welcome">Welcome Hooman, to Pawfect Connections, where forever friendships begin</string>
+    <string name="describe">Discover your Pawfect Companion!
+        \uD83D\uDC3E Explore Our Exclusive Pet Adoption Platform - Where Tails Find Homes.
+        \uD83C\uDFE1\uD83D\uDC15\uD83D\uDC08 Dive into a World of Loving Connections with Dogs, Cats, Birds, Fish, and More!
+        \uD83C\uDF08\uD83D\uDC26\uD83D\uDC20 Each Profile Comes Alive with Age, Bloodline Purity, and Charming Personalities.
+        \uD83D\uDC96 Ready to Embark on a Furry Friendship? Start Chatting with Potential Pet Matches Today!
+        \uD83D\uDCEC\uD83D\uDC3E Adopt, Love, and Create Lifelong Bonds. Your New Best Friend is Just a Click Away!
+        \uD83D\uDC3E✨ #AdoptDontShop #PetLove #ForeverHomes    </string>
+    <string name="login">LOGIN</string>
+    <string name="log_continue">CONTINUE</string>
+    <string name="ready">READY TO EMBARK ON AN EXCITING JOURNEY!</string>
+    <string name="describe2">Look at the furry friends, who are waiting with glittery eyes, waiting for you to make them your lifelong companion. Their smiles are waiting to lift you up after a heavy day, their tantrums are waiting to bother you even if you are tired. So, what are you waiting for?</string>
+    <string name="dog"><a href="https://www.freepik.com/search">Icon by Freepik</a></string>
+    <string name="cat"><a href="https://www.freepik.com/search">Icon by Freepik</a></string>
+    <string name="bird"><a href="https://www.freepik.com/search">Icon by Freepik</a></string>
+    <string name="fish"><a href="https://www.flaticon.com/free-icons/fish" title="fish icons">Fish icons created by Smashicons - Flaticon</a></string>
+    <string name="home"><a href="https://www.flaticon.com/free-icons/home" title="home icons">Home icons created by Freepik - Flaticon</a></string>
+    <string name="account"><a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by Phoenix Group - Flaticon</a></string>
+    <string name="basket"><a href="https://www.flaticon.com/free-icons/pet-carrier" title="pet carrier icons">Pet carrier icons created by Freepik - Flaticon</a></string>
+    <string name="plant"><a href="https://www.flaticon.com/free-icons/plant" title="plant icons">Plant icons created by Freepik - Flaticon</a></string>
+    <string name="logout"><a href="https://www.flaticon.com/free-icons/exit" title="exit icons">Exit icons created by Freepik - Flaticon</a></string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="dog_item">This is a pet</string>
+    <string name="edit">Edit your data:</string>
+    <string name="empty">Your Basket is Empty :( Adopt Now!</string>
+    <string name="add_basket">Add to Basket</string>
+    <string name="contact">Contact with Parents</string>
+
+    <string name="auth0_domain">dev-hn57ebtwj18bjj8i.us.auth0.com</string>
+    <string name="auth0_clientId">jODpu1SVBudiZ3pY9SNc4cdzmCh73HJS</string>
+    <string name="auth0_scheme">app</string>
+    <string name="login_fail">Action Failed !</string>
+
+    <string name="dummy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pellentesque est tellus, condimentum lacinia augue convallis at. Quisque sagittis mauris nec enim cursus, non scelerisque.</string>
+    <string name="none">Not Yet Implemented</string>
+</resources>
